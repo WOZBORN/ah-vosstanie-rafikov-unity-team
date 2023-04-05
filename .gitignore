@@ -1,0 +1,30 @@
+# Unity generated
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# Visual Studio / MonoDevelop generated
+/*.userprefs
+/*.csproj
+/*.pidb
+/*.booproj
+/*.sln
+/*.suo
+/*.tmp
+/*.user
+/*.unityproj
+/*.dll
+/*.pdb
+/*.mpdb
+/*.opendb
+
+# Gradle
+/.gradle/
+/gradle/
+
+# Mac specific
+/.DS_Store

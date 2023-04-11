@@ -63,6 +63,10 @@
     <Compile Include="Assets\Mini First Person Controller\Scripts\Components\Jump.cs" />
     <Compile Include="Assets\Mini First Person Controller\Scripts\Components\Crouch.cs" />
     <Compile Include="Assets\Mini First Person Controller\Scripts\Components\GroundCheck.cs" />
+    <Compile Include="Assets\scripts\key.cs" />
+    <Compile Include="Assets\scripts\fonar.cs" />
+    <Compile Include="Assets\scripts\door11.cs" />
+    <Compile Include="Assets\scripts\portal.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TerrainSampleAssets\ThirdPartyNotices.txt" />

@@ -362,6 +362,7 @@
 "Assets/scripts/door11.cs"
 "Assets/scripts/fonar.cs"
 "Assets/scripts/key.cs"
+"Assets/scripts/OpenDoor.cs"
 "Assets/scripts/portal.cs"
 -langversion:9.0
 

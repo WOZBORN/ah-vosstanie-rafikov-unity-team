@@ -7,7 +7,9 @@ public class PopaScrinic : MonoBehaviour
     public GameObject Popa;
     public GameObject AndreiObosris;
     public AudioSource Thvuk;
-    
+    public GameObject Fonar1;
+    public GameObject Fonar2;
+
     private void OnTriggerEnter(Collider other)
     {
         
@@ -16,9 +18,8 @@ public class PopaScrinic : MonoBehaviour
             Popa.SetActive(false);
             AndreiObosris.SetActive(true);
             Thvuk.Play();
-            
-
-
+            Fonar1.SetActive(true);
+            Fonar2.SetActive(false);
         }
     }
 }

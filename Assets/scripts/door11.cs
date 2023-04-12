@@ -8,6 +8,7 @@ public class door11 : MonoBehaviour
     public GameObject keey2;
     public GameObject door;
     [SerializeField] Animation animm;
+    public GameObject anim;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -15,6 +16,7 @@ public class door11 : MonoBehaviour
         {
             keey.SetActive(false);
             keey2.SetActive(true);
+            anim.SetActive(false);
             animm.Play();
         }
     }

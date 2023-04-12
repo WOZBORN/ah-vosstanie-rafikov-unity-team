@@ -18,6 +18,7 @@ public class fonar : MonoBehaviour
     public GameObject svet10;
     public AudioSource zvuk22;
     public GameObject Vasy;
+    public GameObject Andrey;
 
 
     private void OnTriggerEnter(Collider other)
@@ -38,6 +39,7 @@ public class fonar : MonoBehaviour
             svet10.SetActive(false);
             zvuk22.Play();
             Vasy.SetActive(true);
+            Andrey.SetActive(true);
 
         }
     }

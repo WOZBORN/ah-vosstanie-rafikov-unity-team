@@ -5,7 +5,7 @@ using UnityEngine;
 public class PopaBethitThaToboy : MonoBehaviour
 {
     public GameObject Popa;
-    public Animation TimofeyAnimCirpitchZavod;
+    public AudioSource TimoshaNaloJilVStana;
     public GameObject CubeRubic;
     
 
@@ -14,7 +14,7 @@ public class PopaBethitThaToboy : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Popa.SetActive(true);
-            TimofeyAnimCirpitchZavod.Play();
+            TimoshaNaloJilVStana.Play();
             CubeRubic.SetActive(false);
             
         }

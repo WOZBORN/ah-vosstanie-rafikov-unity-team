@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.AI;
 
 public class ChelScript : MonoBehaviour
 {
@@ -22,14 +21,11 @@ public class ChelScript : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
-        { 
+        {
             KeySceleta.SetActive(false);
             KeyIgroka.SetActive(true);
             sceletkluch = false;
         }
-    }
-    private void Update()
-    {
         if (sceletkluch == false)
         {
             sceletAnim.Play();

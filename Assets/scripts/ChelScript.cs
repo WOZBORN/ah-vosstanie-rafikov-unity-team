@@ -5,6 +5,8 @@ public class ChelScript : MonoBehaviour
 {
     public Animation sceletAnim;
 
+    public AudioSource sceletPoyavlyaetsya;
+
     public GameObject scelet;
     public GameObject skrimer;
     public GameObject sceletVVanne;
@@ -12,14 +14,11 @@ public class ChelScript : MonoBehaviour
     public GameObject KeyIgroka;
 
     private bool sceletkluch;
-    private bool IceScream;
 
-    public float timer1;
     public float timer2;
     private void Awake()
     {
         sceletkluch = true;
-        IceScream = false;
     }
     private void Update()
     {
@@ -27,6 +26,7 @@ public class ChelScript : MonoBehaviour
         {
             sceletAnim.Play();
             sceletVVanne.SetActive(false);
+            sceletPoyavlyaetsya.Play();
             if (timer2 > 0)
             {
                 timer2 -= Time.deltaTime;

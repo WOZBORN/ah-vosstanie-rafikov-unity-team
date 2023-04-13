@@ -6,6 +6,7 @@ TagManager:
   tags:
   - key
   - Popa
+  - Scelet
   layers:
   - Default
   - TransparentFX

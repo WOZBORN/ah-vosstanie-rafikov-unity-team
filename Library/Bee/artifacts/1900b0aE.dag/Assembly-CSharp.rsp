@@ -356,7 +356,7 @@
 "Assets/Mini First Person Controller/Scripts/Components/Zoom.cs"
 "Assets/Mini First Person Controller/Scripts/FirstPersonLook.cs"
 "Assets/Mini First Person Controller/Scripts/FirstPersonMovement.cs"
-"Assets/scripts/ChelScript.cs"
+"Assets/scripts/ChatGPTGenii.cs"
 "Assets/scripts/door11.cs"
 "Assets/scripts/DverVSvetloeBydyucthee.cs"
 "Assets/scripts/EnemyController.cs"
@@ -368,7 +368,6 @@
 "Assets/scripts/PopaBethitThaToboy.cs"
 "Assets/scripts/PopaScrinic.cs"
 "Assets/scripts/portal.cs"
-"Assets/scripts/sceletController.cs"
 "Assets/scripts/sceletscript.cs"
 "Assets/scripts/Timer.cs"
 -langversion:9.0

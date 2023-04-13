@@ -2968,7 +2968,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 26401808b5651b7418f11c95daf9ee60, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -3887,6 +3887,54 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &1830841068
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1830841069}
+  - component: {fileID: 1830841070}
+  m_Layer: 0
+  m_Name: SceletProsnis
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1830841069
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1830841068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6021956050319941235}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1830841070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1830841068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5de830506cb77b14ab4443623af1a5f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Scelet: {fileID: 6778012339034811044}
+  scelet2: {fileID: 248965547}
+  TimofeyObosryotsa: {fileID: 1388154285}
+  timer1: 1.5
 --- !u!1 &1836504469
 GameObject:
   m_ObjectHideFlags: 0
@@ -14388,7 +14436,8 @@ Transform:
   m_LocalPosition: {x: -0.035290543, y: 0.061064474, z: 0.00095278525}
   m_LocalScale: {x: 0.4027306, y: 0.40273067, z: 0.40273067}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1830841069}
   m_Father: {fileID: 6150658025852121118}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -180, y: -90, z: 90}
@@ -14872,7 +14921,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Scelet: {fileID: 6778012339034811044}
   Scelet2: {fileID: 248965547}
-  Stimer1: 1.5
+  Screamir: {fileID: 1830841068}
   Zvyk: {fileID: 28663836}
   Key: {fileID: 6402317343034557641}
   Key2: {fileID: 919132147557748955}

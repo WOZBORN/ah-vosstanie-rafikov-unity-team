@@ -8,17 +8,25 @@ public class ChelScript : MonoBehaviour
     public AudioSource sceletPoyavlyaetsya;
 
     public GameObject scelet;
-    public GameObject skrimer;
     public GameObject sceletVVanne;
     public GameObject KeySceleta;
     public GameObject KeyIgroka;
 
-    private bool sceletkluch;
+    public bool sceletkluch;
 
     public float timer2;
     private void Awake()
     {
         sceletkluch = true;
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        { 
+            KeySceleta.SetActive(false);
+            KeyIgroka.SetActive(true);
+            sceletkluch = false;
+        }
     }
     private void Update()
     {
@@ -35,15 +43,6 @@ public class ChelScript : MonoBehaviour
             {
                 scelet.SetActive(true);
             }
-        }
-    }
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Player"))
-        { 
-            KeySceleta.SetActive(false);
-            KeyIgroka.SetActive(true);
-            sceletkluch = false;
         }
     }
 }

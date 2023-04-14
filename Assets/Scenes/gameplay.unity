@@ -5756,7 +5756,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f977f53412d81140ab13b3fca57cca2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpStrength: 5
+  jumpStrength: 3
   groundCheck: {fileID: 114503055242094910}
 --- !u!114 &114503055242094910
 MonoBehaviour:
@@ -5801,7 +5801,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   key: 306
   movement: {fileID: 114963311782859170}
-  movementSpeed: 5
+  movementSpeed: 2
   headToLower: {fileID: 4490257425632374}
   crouchYHeadPosition: 1
   colliderToLower: {fileID: 136877096939748908}
@@ -5817,9 +5817,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97fca36bd81de7c4cafce7bbf02ca611, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 5
   canRun: 1
-  runSpeed: 20
+  runSpeed: 9
   runningKey: 304
 --- !u!124 &124991110487220098
 Behaviour:

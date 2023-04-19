@@ -5,6 +5,6 @@ public class PlayAgain : MonoBehaviour
 {
     public void restartClicer()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 }

@@ -364,6 +364,7 @@
 "Assets/scripts/DverVSvetloeBydyucthee.cs"
 "Assets/scripts/EnemyController.cs"
 "Assets/scripts/Exit.cs"
+"Assets/scripts/FinishTriger.cs"
 "Assets/scripts/fonar.cs"
 "Assets/scripts/key.cs"
 "Assets/scripts/keyScrimer.cs"
@@ -374,6 +375,7 @@
 "Assets/scripts/PopaBethitThaToboy.cs"
 "Assets/scripts/PopaScrinic.cs"
 "Assets/scripts/portal.cs"
+"Assets/scripts/ResumeVersus2.cs"
 "Assets/scripts/sceletscript.cs"
 "Assets/scripts/Timer.cs"
 -langversion:9.0

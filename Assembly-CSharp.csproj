@@ -81,6 +81,8 @@
     <Compile Include="Assets\scripts\PlayAgain.cs" />
     <Compile Include="Assets\scripts\Exit.cs" />
     <Compile Include="Assets\scripts\Pause.cs" />
+    <Compile Include="Assets\scripts\ResumeVersus2.cs" />
+    <Compile Include="Assets\scripts\FinishTriger.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TerrainSampleAssets\ThirdPartyNotices.txt" />

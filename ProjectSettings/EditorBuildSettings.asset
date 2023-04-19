@@ -6,12 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MENU.unity
+    guid: 9d8165b18ca5d97419eab02bcf335083
+  - enabled: 1
     path: Assets/Scenes/nachalo.unity
     guid: ae7b8bcea343f954c89c2bb971c71603
   - enabled: 1
     path: Assets/Scenes/gameplay.unity
     guid: eb3f3c82305a93f47a052933aa17d09d
-  - enabled: 1
-    path: Assets/Scenes/MENU.unity
-    guid: 9d8165b18ca5d97419eab02bcf335083
   m_configObjects: {}

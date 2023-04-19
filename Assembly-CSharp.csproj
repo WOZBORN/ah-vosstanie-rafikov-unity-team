@@ -78,6 +78,9 @@
     <Compile Include="Assets\Mini First Person Controller\Scripts\Components\Crouch.cs" />
     <Compile Include="Assets\scripts\key.cs" />
     <Compile Include="Assets\Mini First Person Controller\Scripts\Components\GroundCheck.cs" />
+    <Compile Include="Assets\scripts\PlayAgain.cs" />
+    <Compile Include="Assets\scripts\Exit.cs" />
+    <Compile Include="Assets\scripts\Pause.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TerrainSampleAssets\ThirdPartyNotices.txt" />

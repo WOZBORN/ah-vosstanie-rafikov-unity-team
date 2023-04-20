@@ -328,9 +328,14 @@
 -r:"D:/unity/unity files/2021.3.8f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.iOS.Extensions.Xcode.dll"
 -r:"D:/unity/unity files/2021.3.8f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
 -r:"D:/unity/unity files/2021.3.8f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
+<<<<<<< Updated upstream
 -r:"F:/projects/AH_vosstanie_raficof/ah-vosstanie-rafikov-unity-team/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
 -r:"F:/projects/AH_vosstanie_raficof/ah-vosstanie-rafikov-unity-team/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll"
 -r:"F:/projects/AH_vosstanie_raficof/ah-vosstanie-rafikov-unity-team/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+=======
+-r:"F:/projects/AH_vosstanie_raficof/ah-vosstanie-rafikov-unity-team/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll"
+-r:"F:/projects/AH_vosstanie_raficof/ah-vosstanie-rafikov-unity-team/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+>>>>>>> Stashed changes
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
@@ -366,6 +371,21 @@
 "Assets/Mini First Person Controller/Scripts/FirstPersonLook.cs"
 "Assets/Mini First Person Controller/Scripts/FirstPersonMovement.cs"
 "Assets/scripts/key.cs"
+<<<<<<< Updated upstream
+=======
+"Assets/scripts/keyScrimer.cs"
+"Assets/scripts/OpenDoor.cs"
+"Assets/scripts/OpendoorThamok.cs"
+"Assets/scripts/Pause.cs"
+"Assets/scripts/PlayAgain.cs"
+"Assets/scripts/PopaBethitThaToboy.cs"
+"Assets/scripts/PopaScrinic.cs"
+"Assets/scripts/portal.cs"
+"Assets/scripts/randomkey.cs"
+"Assets/scripts/ResumeVersus2.cs"
+"Assets/scripts/sceletscript.cs"
+"Assets/scripts/Timer.cs"
+>>>>>>> Stashed changes
 -langversion:9.0
 
 /deterministic

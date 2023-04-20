@@ -119,6 +119,7 @@
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 -r:"C:/buildslave/unity/build/build/libcache/Library/PackageCache/com.unity.collab-proxy@1.17.1/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
 -r:"C:/buildslave/unity/build/build/libcache/Library/PackageCache/com.unity.collab-proxy@1.17.1/Lib/Editor/PlasticSCM/unityplastic.dll"
 -r:"C:/buildslave/unity/build/build/libcache/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
@@ -331,6 +332,8 @@
 -r:"C:/buildslave/unity/build/build/WindowsEditor/x64/Release/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
 -r:"C:/buildslave/unity/build/build/WindowsEditor/x64/Release/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
 =======
+=======
+>>>>>>> Stashed changes
 -r:"D:/unity/unity files/2021.3.8f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"D:/unity/unity files/2021.3.8f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"D:/unity/unity files/2021.3.8f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
@@ -552,8 +555,14 @@
 -r:"D:/unity/unity files/2021.3.8f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Transactions.dll"
 -r:"D:/unity/unity files/2021.3.8f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
 -r:"D:/unity/unity files/2021.3.8f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
+<<<<<<< Updated upstream
 -r:"F:/projects/AH_vosstanie_raficof/ah-vosstanie-rafikov-unity-team/Library/PackageCache/com.unity.collab-proxy@1.17.1/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
 -r:"F:/projects/AH_vosstanie_raficof/ah-vosstanie-rafikov-unity-team/Library/PackageCache/com.unity.collab-proxy@1.17.1/Lib/Editor/PlasticSCM/unityplastic.dll"
+-r:"F:/projects/AH_vosstanie_raficof/ah-vosstanie-rafikov-unity-team/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+>>>>>>> Stashed changes
+=======
+-r:"F:/projects/AH_vosstanie_raficof/ah-vosstanie-rafikov-unity-team/Library/PackageCache/com.unity.collab-proxy@2.0.1/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
+-r:"F:/projects/AH_vosstanie_raficof/ah-vosstanie-rafikov-unity-team/Library/PackageCache/com.unity.collab-proxy@2.0.1/Lib/Editor/PlasticSCM/unityplastic.dll"
 -r:"F:/projects/AH_vosstanie_raficof/ah-vosstanie-rafikov-unity-team/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
 >>>>>>> Stashed changes
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.ref.dll"

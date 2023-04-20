@@ -122,6 +122,7 @@
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 -r:"C:/buildslave/unity/build/build/libcache/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
 -r:"C:/buildslave/unity/build/build/WindowsEditor/x64/Release/Data/Managed/UnityEditor.Graphs.dll"
 -r:"C:/buildslave/unity/build/build/WindowsEditor/x64/Release/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
@@ -328,6 +329,8 @@
 -r:"C:/buildslave/unity/build/build/WindowsEditor/x64/Release/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"C:/buildslave/unity/build/build/WindowsEditor/x64/Release/Data/NetStandard/ref/2.1.0/netstandard.dll"
 =======
+=======
+>>>>>>> Stashed changes
 -r:"D:/unity/unity files/2021.3.8f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"D:/unity/unity files/2021.3.8f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"D:/unity/unity files/2021.3.8f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
@@ -546,6 +549,9 @@
 -r:"D:/unity/unity files/2021.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
 -r:"D:/unity/unity files/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
 -r:"F:/projects/AH_vosstanie_raficof/ah-vosstanie-rafikov-unity-team/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 "Library/PackageCache/com.unity.test-framework@1.1.31/UnityEngine.TestRunner/AssemblyInfo.cs"
 "Library/PackageCache/com.unity.test-framework@1.1.31/UnityEngine.TestRunner/Assertions/AllocatingGCMemoryConstraint.cs"
